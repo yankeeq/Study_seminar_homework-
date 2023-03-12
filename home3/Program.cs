@@ -62,12 +62,15 @@ System.Console.WriteLine($"Расстояние между точками = {dis
 
 // 3 -> 1, 8, 27
 // 5 -> 1, 8, 27, 64, 125
-
+/*
 Console.WriteLine("напишите число");
 int number = Convert.ToInt32(Console.ReadLine());
+
 for(int i=1; i <=number; i++)
 {
+   
     Console.Write(" ");
     System.Console.Write($"{Math.Pow(i,3)}");
+    System.Console.Write($"[{string.Join(", ", i, number )}]");
 }
-
+*/
